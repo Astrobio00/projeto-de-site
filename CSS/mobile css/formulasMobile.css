@@ -1,0 +1,106 @@
+/*Global Setup*/
+body,
+header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Serif', serif;
+}
+
+#titulo {
+    padding: 60px 20px 10px 20px;
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+    font-size: 2em;
+}
+#mathList, #physicsList{
+    width: 100%;
+    text-align: center;
+    
+}
+#subtitulo {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 5px 10px 40px 5px;
+}
+
+#physicsItemList{
+    width: 120px;
+}
+#physicsButtonLabel{
+    padding: 20px;
+    font-size: 1.8em;
+    background-color: rgb(253, 43, 43);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#physicsButton {
+    display: none;
+}
+
+#physicsButton:checked~ .physicsItemList {
+    max-height: 100%;
+}
+
+.physicsItemList {
+    max-height: 0;
+    overflow: hidden;
+    margin-left: -40px;
+}
+.physicsListItem{
+    padding: 20px 20px 20px 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#physicsList{
+    color: rgb(247, 247, 247);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #222222;
+}
+#mathItemList{
+    width: 120px;
+}
+#mathButtonLabel{
+    padding: 20px;
+    font-size: 1.8em;
+    background-color: orange;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#mathButton {
+    display: none;
+}
+
+#mathButton:checked~ .mathItemList {
+    max-height: 100%;
+}
+
+.mathItemList {
+    max-height: 0;
+    overflow: hidden;
+    margin-left: -40px;
+}
+.mathListItem{
+    padding: 20px 20px 20px 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#mathList{
+    color: rgb(247, 247, 247);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #222222;
+}

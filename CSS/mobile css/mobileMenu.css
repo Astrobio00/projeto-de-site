@@ -1,0 +1,41 @@
+.menu {
+    background-color: #31d7dd;
+}
+
+input#menuChecker {
+    display: none;
+}
+
+input#menuChecker:checked~.menuContent {
+    max-height: 100%;
+}
+
+#menuButton {
+    padding: 15px 5px 10px 10px;
+    margin: 0;
+}
+
+.menuContent {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.menuList {
+    background-color: #222222;
+    margin: 0px auto 0px auto;
+}
+
+.menuItem {
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.menuItem :visited {
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
