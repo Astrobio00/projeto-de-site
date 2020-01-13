@@ -16,19 +16,29 @@
         <label for="menuChecker"><img src="../../Img/menuBar.png" alt="" srcset="" id="menuButton"></label>
         <div class="menuContent">
             <ul class="menuList">
-                <li class="menuItem"><a href="../../index.html">Início</a></li>
-                <li class="menuItem"><a href="../../formulas.html">Fórmulas</a></li>
-                <li class="menuItem"><a href="../../resumos.html">Resumos</a></li>
-                <li class="menuItem"><a href="../../contato.html">Contato</a></li>
+                <li class="menuItem"><a href="../../index.html" class="menuLink">Início</a></li>
+                <li class="menuItem"><a href="../../formulas.html" class="menuLink">Fórmulas</a></li>
+                <li class="menuItem"><a href="../../resumos.html" class="menuLink">Resumos</a></li>
+                <li class="menuItem"><a href="../../contato.html" class="menuLink">Contato</a></li>
             </ul>
         </div>
     </header>
     <main>
-
+        <h1>Teorema de Pitágoras</h1>
+        <p id="hint">Dica: Deixe em branco o valor da incógnita que você deseja descobrir</p>
+            <div class="inputArea">
+                <input type="number" name="" class="valueInput" id="aValue" placeholder="Valor de A" min="0" max="10000" >
+                <input type="number" name="" id="bValue" class="valueInput" placeholder="Valor de B" min="0" max="10000" >
+                <input type="number" name="" id="cValue" class="valueInput" placeholder="Valor de C" min="0" max="10000" > 
+                <input type="button" value="Calcular" id="calcButton" onclick="calcular()">
+            </div>
     </main>
     <footer>
-
+        <p>Aprenda sobre o Teorema de Pitágoras <a href="../../formulas.html">apertando aqui</a></p>
     </footer>
+
 </body>
 
+<script src="../../JS/formulas/mat/pitagoras.js"></script>
+    
 </html>

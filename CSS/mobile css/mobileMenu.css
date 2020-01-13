@@ -35,7 +35,7 @@ input#menuChecker:checked~.menuContent {
     color: whitesmoke;
 }
 
-a {
+.menuLink {
     text-decoration: none;
     color: white;
 }

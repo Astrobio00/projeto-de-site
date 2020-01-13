@@ -5,3 +5,33 @@ header {
     padding: 0;
     font-family: 'Inria Serif', serif;
 }
+
+main {
+    text-align: center;
+}
+ h1{
+    margin: 30px 30px 20px 30px;
+    font-size: 2em;
+}
+
+.valueInput{
+    padding: 30px;
+    margin: 0;
+    width: 220px;
+    font-size: 1.4em;
+}
+#calcButton{
+    width: 200px;
+    padding: 30px;
+    font-size: 1.7em;
+    background-color: orange;
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+}
+#hint{
+    margin-bottom: 30px;
+}

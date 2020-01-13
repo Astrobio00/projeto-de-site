@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="CSS/mobile css/contatoMobile.css">
+    <link rel="stylesheet" href="../../CSS/mobile css/formulas/mat/pitagorasMobile.css">
     <link rel="stylesheet" href="../../CSS/mobile css/mobileMenu.css">
     <title>Titulo</title>
 </head>
@@ -13,22 +13,32 @@
 <body>
     <header class="menu">
         <input type="checkbox" name="" id="menuChecker">
-        <label for="menuChecker"><img src="Img/menuBar.png" alt="" srcset="" id="menuButton"></label>
+        <label for="menuChecker"><img src="../../Img/menuBar.png" alt="" srcset="" id="menuButton"></label>
         <div class="menuContent">
             <ul class="menuList">
-                <li class="menuItem"><a href="index.html">Início</a></li>
-                <li class="menuItem"><a href="formulas.html">Fórmulas</a></li>
-                <li class="menuItem"><a href="resumos.html">Resumos</a></li>
-                <li class="menuItem"><a href="contato.html">Contato</a></li>
+                <li class="menuItem"><a href="../../index.html" class="menuLink">Início</a></li>
+                <li class="menuItem"><a href="../../formulas.html" class="menuLink">Fórmulas</a></li>
+                <li class="menuItem"><a href="../../resumos.html" class="menuLink">Resumos</a></li>
+                <li class="menuItem"><a href="../../contato.html" class="menuLink">Contato</a></li>
             </ul>
         </div>
     </header>
     <main>
-
+        <h1>Fórmula da Força</h1>
+        <p id="hint">Dica: Deixe em branco o valor da incógnita que você deseja descobrir</p>
+            <div class="inputArea">
+                <input type="number" name="" class="valueInput" id="aValue" placeholder="Força" min="0" max="10000" >
+                <input type="number" name="" id="bValue" class="valueInput" placeholder="Massa" min="0" max="10000" >
+                <input type="number" name="" id="cValue" class="valueInput" placeholder="Acerelação" min="0" max="10000" > 
+                <input type="button" value="Calcular" id="calcButton" onclick="calcular()">
+            </div>
     </main>
     <footer>
-
+        <p>Aprenda sobre a Fórmula da Força <a href="../../formulas.html">apertando aqui</a></p>
     </footer>
+
 </body>
 
+<script src="../../JS/formulas/fisica/forca.js"></script>
+    
 </html>
